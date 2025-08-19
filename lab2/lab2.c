@@ -3,7 +3,7 @@
 int main()
 {
     int num_iterations, i;
-    printf("Enter the number of iterations:");
+    printf("Enter the number of iterations: ");
     scanf("%d", &num_iterations);
 #pragma omp parallel
     {
